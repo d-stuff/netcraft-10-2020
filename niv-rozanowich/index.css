@@ -1,0 +1,158 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #535353;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ body{
+     background-color: #010101;
+     display: flex;
+     height: 100%;
+     justify-content: center;
+     align-items: center;
+ }
+.cv{
+    display: flex;
+    height: 90%;
+    width: 90%;
+}
+
+.profile{
+    flex: 1;
+    max-width: 45%;
+    background-color: #eee;
+    border-left: 35px solid #2e93a5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.profile .profile-image {
+    margin: 30px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 10px solid #ccc;
+    overflow: hidden;
+    position: relative;
+}
+.profile .profile-image:after{
+    content: " ";
+    left: 0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    border: 3px solid #eee;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.profile .profile-image img{
+    width: 100%;
+
+}
+.profile h1{
+    font-size: 100%;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid #535353;
+}
+.profile h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 80%;
+    text-align: center;
+}
+.profile h3{
+    font-size: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    border-bottom: 1px solid #535353;
+}
+.profile a {
+    color: #535353;
+    text-decoration: none;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 80%;
+    text-align: center;
+}
+.profile .social-links{
+    margin-top: auto;
+    margin-bottom: 40px;
+    
+}
+.profile .social-links a{
+    font-size: 100%;
+    text-decoration: none;
+}
+.profile .social-links a:hover{
+    font-size: 150%;
+}
+.icon-instagram{
+    color: rgb(226, 32, 216);
+}
+.icon-twitter{
+    color:rgb(96, 96, 231);
+}
+.icon-facebook{
+    color:blue;
+}
+.icon-github{
+    color:black;
+}
+.skills{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-right: 10px solid #2e93a5;
+    padding: 30px;
+}
+.skills h1{
+    color: #2e93a5;
+}
+
+ .skills h2{
+    color: #1d7585;
+ }
+ .skills h3{
+     font-size: 150%;
+ }
+ .skills section {
+    font-size: 70%;
+
+ }
+ .skills .personal .skill .precentage{
+     background-color: #a6a6a6;
+    
+
+ }
+ .skills section h3{
+
+
+ }
+ .skills section .skill{
+
+ }
+ .skills section .skill strong{
+     
+}
+.skills section .skill .progress{
+    background-color: #eee;
+    margin: 20px 0;
+    height: 10px;
+}
+.skill .precentage{
+    height: 100%;
+    background-color:#2e93a5;
+}
+
