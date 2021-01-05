@@ -10,7 +10,7 @@ body{
   }
 .application{
     display: grid;
-    grid-template-areas:"header header"
+    grid-template-areas: "header header"
     "menu menu"
     "headliner headliner"
     "main main"
@@ -25,7 +25,7 @@ main{
             grid-area: headliner;
             height: 50px;
             display: block;
-            padding-left:10px;
+            padding-left: 10px;
         
     }
 }
@@ -46,7 +46,7 @@ main p{
 }
 main>.sideForm{
 
-    top:300px;
+    top: 300px;
     line-height: 2em;
     right: 50px;
     position: absolute;

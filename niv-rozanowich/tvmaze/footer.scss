@@ -18,10 +18,10 @@ footer{
         font-size: 20px;
     }
     .footer-left{
-        flex:1;
+        flex: 1;
     }
     .footer-right{
-        flex:1;
+        flex: 1;
     }
 }
 
@@ -38,24 +38,24 @@ footer{
     }
 }
 .icon-instagram{
-    color:$ig-color;
+    color: $ig-color;
     text-decoration: none;
     &:hover{
-        color:$ig-color-light;
+        color: $ig-color-light;
     }
 }
 .icon-facebook{
-    color:blue;
+    color: blue;
     text-decoration: none;
     &:hover{
-        color:lightblue;
+        color: lightblue;
     }
 }
 .icon-twitter{
-    color:$twitter-color;
+    color: $twitter-color;
     text-decoration: none;
     &:hover{
-        color:$twitter-color-light;
+        color: $twitter-color-light;
     }
 }
 #first{
@@ -63,7 +63,7 @@ footer{
     text-align: right;
 }
 #first>a{
-    font-size:18px;
+    font-size: 18px;
     margin: 10px;
     padding-bottom: 20px;
     color: $maze-color;
@@ -76,12 +76,12 @@ footer{
     font-size:14px;
     margin: 10px;
     padding-bottom: 20px;
-    color:$maze-color;
+    color: $maze-color;
 }
 .credits{
     display: inline;
-    color:$maze-color;
-    font-size:14px;
+    color: $maze-color;
+    font-size: 14px;
     margin-left: 70px;
     margin-top: 40px;
 }

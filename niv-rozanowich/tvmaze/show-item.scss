@@ -2,7 +2,7 @@
 .show{
     margin: 10px;
     flex-wrap: wrap;
-    display:grid;
+    display: grid;
    grid-template-areas: "thumbnail"
    "title"
    "footer"   ;
@@ -10,7 +10,7 @@
     justify-content: center;
     text-align: center;
     img{
-        width:100%;
+        width: 100%;
     }
     a{
         grid-area: thumbnail;
@@ -21,12 +21,12 @@
         font-size: 95%;
         grid-area: title;
         font-weight: normal;
-        color:$item-font-color;
+        color: $item-font-color;
     }
     h2{
         grid-area: second-title;
         font-size: 95%;
-        color:$item-font-color;
+        color: $item-font-color;
     }
     
 .item-footer{
@@ -37,9 +37,9 @@
     margin-top: 5px;
 
     .heart, .rate{
-    flex:1;
-    font-size:120%;
-    color:$item-font-color;
+    flex: 1;
+    font-size: 120%;
+    color: $item-font-color;
     display: flex;
     align-items: center;
     justify-content: center;
