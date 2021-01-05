@@ -5,5 +5,48 @@ html, body {
 }
 
 body {
-  background-color: #eee;
+  background-color: rgb(223, 208, 188);
 }
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.students {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.student {
+  display: grid;
+  grid-gap: 10px;
+  background-color: lightseagreen;
+  color: white;
+  border: 0.5px solid black;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h4 {
+  /* grid-area: name; */
+  border-bottom: 1px solid white;
+  padding: 10px;
+  margin: 0;
+}
+
+img{
+  max-width: 250px;
+  border-radius: 50%;
+  /* border: 1px solid black; */
+}
+
+a {
+  /* grid-area: link; */
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+}
+
+
