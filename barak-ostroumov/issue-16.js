@@ -5,9 +5,9 @@ function sto2html(student_list = []) {
     for (let i = 0; i < student_list.length; i++) {
         students_html += `<div class="student">
         <h4>${student_list[i].name}</h4>
-        <div class="photo"><img src='${student_list[i].image}'>
+        <div class="photo"><img src='${student_list[i].photo}'>
         </div>
-        <a href="${student_list[i].link}">link to CV</a>
+        <a href="${student_list[i].cvLink}">link to CV</a>
     </div>`
     }
 
