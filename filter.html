@@ -7,9 +7,9 @@
 </head>
 <body>
     <script>
-        let students = [{name: 'shlomi', age: 25, bio: 'fullstack'}, {name: 'yosi', age: 26, bio: 'fullstack'}, {name: 'nir', age: 26, bio: 'full'} ];
+        let students = [{name: 'shlomi aaa', age: 25, bio: 'fullstack dev'}, {name: 'yosi', age: 26, bio: 'fullstack'}, {name: 'nir', age: 26, bio: 'full'} ];
         console.log({students});
-        const word = 'fullstack';
+        const word = 'full';
 
         console.log(filter(students, word));
 
@@ -19,7 +19,7 @@
             // console.log('filter');
             let arr = [];
             for (const student of students) {
-                if (student.name === word || student.bio === word) {
+                if (student.name.includes(word) || student.bio.includes(word)) {
                     arr.push(student);
                 }
             }
