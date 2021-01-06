@@ -8,6 +8,19 @@ body {
   background-color: rgb(223, 208, 188);
 }
 
+.search {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  border: 1px solid  rgb(221, 190, 148);
+  background-color:  rgb(221, 198, 178);  
+}
+
+#search {
+  background-color: rgb(250, 214, 214);
+  border: 1px solid rgb(73, 73, 73);
+} 
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
