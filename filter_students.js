@@ -1,9 +1,9 @@
-function filter_students(students, word) {
-    // console.log('filter');
-    let arr = [];
-    let filtered = students.filter(function(student){
-        // return student.name.toUpperCase().includes(word) || student.bio.toUpperCase().includes(word);
-        return student.name.includes(word) || student.bio.includes(word);
-    });
-    return filtered;
+export function filterStudents(students, word = '') {
+	const lowerWord = word.toLowerCase();
+	return students.filter(function ({ name, bio }) {
+		return (
+			(typeof name === 'string' && name.toLowerCase().includes(lowerWord)) ||
+			(typeof bio === 'string' && bio.toLowerCase().includes(lowerWord))
+		);
+	});
 }
