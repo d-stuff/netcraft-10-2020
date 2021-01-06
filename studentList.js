@@ -16,4 +16,4 @@ const students = [
     { name:'Areen Shalli', photo:null, bio:null, cvLink:null },
     { name:'Tal Sprung', photo:null, bio:null, cvLink:null },
   ]
-  ]
+  
