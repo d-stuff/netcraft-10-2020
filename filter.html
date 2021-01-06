@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let students = [{name: 'shlomi', age: 25, bio: 'fullstack'}, {name: 'yosi', age: 26, bio: 'fullstack'}, {name: 'nir', age: 26, bio: 'full'} ];
+        console.log({students});
+        const word = 'fullstack';
+
+        console.log(filter(students, word));
+
+
+
+        function filter(students, word) {
+            // console.log('filter');
+            let arr = [];
+            for (const student of students) {
+                if (student.name === word || student.bio === word) {
+                    arr.push(student);
+                }
+            }
+            return arr;
+        }
+
+    </script>
+
+</body>
+</html>
