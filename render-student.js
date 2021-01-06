@@ -1,15 +1,13 @@
 // sto2html = student object to html
-function sto2html(student_list = []) {
+function renderStudent(student = {}) {
     let students_html = "";
 
-    for (let i = 0; i < student_list.length; i++) {
-        students_html += `<div class="student">
-        <h4>${student_list[i].name}</h4>
-        <div class="photo"><img src='${student_list[i].photo}'>
+    student_html += `<div class="student">
+    <h4>${student_list[i].name}</h4>
+    <div class="photo"><img src='${student_list[i].photo}'>
         </div>
-        <a href="${student_list[i].cvLink}">link to CV</a>
+    <a href="${student_list[i].cvLink}">link to CV</a>
     </div>`
-    }
 
-    return students_html;
+    return student_html;
 }
