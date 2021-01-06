@@ -7,23 +7,30 @@
 </head>
 <body>
     <script>
-        let students = [{name: 'shlomi aaa', age: 25, bio: 'fullstack dev'}, {name: 'yosi', age: 26, bio: 'fullstack'}, {name: 'nir', age: 26, bio: 'full'} ];
+        const students = [{name: 'YOSI', age: 25, bio: 'fullstack dev'}, {name: 'yosi', age: 26, bio: 'fullstack'}, {name: 'nir', age: 26, bio: 'full'} ];
         console.log({students});
         const word = 'full';
 
-        console.log(filter(students, word));
+
+        console.log(filter_students(students, word));
 
 
 
-        function filter(students, word) {
+        function filter_students(students, word) {
             // console.log('filter');
             let arr = [];
-            for (const student of students) {
-                if (student.name.includes(word) || student.bio.includes(word)) {
-                    arr.push(student);
-                }
-            }
-            return arr;
+            let filtered = students.filter(function(student){
+                // return student.name.toUpperCase().includes(word) || student.bio.toUpperCase().includes(word);
+                return student.name.includes(word) || student.bio.includes(word);
+            });
+            return filtered;
+
+            // for (const student of students) {
+            //     if (student.name.includes(word) || student.bio.includes(word)) {
+            //         arr.push(student);
+            //     }
+            // }
+            // return arr;
         }
 
     </script>
