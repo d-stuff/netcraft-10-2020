@@ -9,3 +9,7 @@ function renderStudent(student = {}) {
     </div>`;
 
 }
+
+export function renderStudents(students=[]){
+    document.querySelector('.students').innerHTML = students.map(renderStudent).join("")
+}
