@@ -31,12 +31,13 @@ body {
 }
 
 .students {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-areas: 'student student student student';
+  grid-gap: 20px;
 }
 
 .student {
+  grid-area: 'student';
   display: grid;
   grid-gap: 10px;
   background-color: lightseagreen;
