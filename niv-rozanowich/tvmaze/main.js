@@ -1,11 +1,12 @@
 import { renderShows } from './renderShows.js'
-import {shows} from '../../shows'
-import { filterShows } from './filter-shows.js'
+import {shows} from '../../shows.js'
 
 renderShows(shows)
 
 const input = document.querySelector('.search');
 
 input.addEventListener('input', () => {
-	renderShows(filterShows(shows, input.value))
+	fetch(`http://api.tvmaze.com/search/shows?q=${input.value}`)
+  .then(response => response.json())
+  .then(renderShows);
 })
