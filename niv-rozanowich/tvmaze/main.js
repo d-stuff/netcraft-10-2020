@@ -1,5 +1,5 @@
 import { renderShows } from './renderShows.js'
-import {shows} from '../../shows'
+import {shows} from '../../shows.js'
 import { filterShows } from './filter-shows.js'
 
 renderShows(shows)
