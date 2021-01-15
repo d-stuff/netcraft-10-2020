@@ -5,6 +5,7 @@ export const students = [
 	{ name: 'Leonid Garchu', photo: null, bio: null, cvLink: null },
 	{ name: 'Shay Geva', photo: null, bio: null, cvLink: null },
 	{ name: 'Uri Koffman', photo: null, bio: null, cvLink: null },
+	{ name: 'Ana Levit', photo: 'ana-levit/photo.jfif', bio: "Electrical and Electronics Engineer", cvLink: 'ana-levit/index.html' },
 	{ name: 'Effi Malach', photo: null, bio: null, cvLink: null },
 	{ name: 'Haitham Mansour', photo: null, bio: null, cvLink: null },
 	{ name: 'Yakov Markman', photo: null, bio: null, cvLink: null },
