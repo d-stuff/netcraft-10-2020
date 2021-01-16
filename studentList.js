@@ -8,7 +8,7 @@ export const students = [
 	{ name: 'Ana Levit', photo: 'ana-levit/photo.jfif', bio: "Electrical and Electronics Engineer", cvLink: 'ana-levit/index.html' },
 	{ name: 'Effi Malach', photo: null, bio: null, cvLink: null },
 	{ name: 'Haitham Mansour', photo: null, bio: null, cvLink: null },
-	{ name: 'Yakov Markman', photo: null, bio: 'Web Developer', cvLink: 'yakov-markman/index.html'},
+	{ name: 'Yakov Markman', photo: 'yakov-markman/IMG_8034.jpg', bio: 'Web Developer', cvLink: 'yakov-markman/index.html'},
 	{ name: 'Kobi Mechani', photo: null, bio: null, cvLink: null },
 	{ name: 'Omer Messing', photo: null, bio: null, cvLink: null },
 	{ name: 'Nivo music', photo: null, bio: null, cvLink: null },
