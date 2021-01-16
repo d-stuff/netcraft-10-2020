@@ -1,0 +1,12 @@
+{
+  "name": "card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"tvmaze:css": "sass --watch tvmaze/stylemaze.scss:tvmaze/dist/stylemaze.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
