@@ -1,0 +1,42 @@
+.show-item {
+  width: 210px;
+  margin: 20px;
+  background-color: #3c948b;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "thumbnail thumbnail" " title title " " favorite ranks";
+  grid-gap: 10px;
+}
+
+.show-item h3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: title;
+  margin: 0;
+  padding: 0 0 10px 10px;
+  border-bottom: 1px solid #13ead7;
+  font-weight: normal;
+}
+
+.show-item .show-image {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: thumbnail;
+}
+
+.show-item .favorite {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: favorite;
+  text-align: center;
+}
+
+.show-item .ranks {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: ranks;
+  text-align: center;
+}
+/*# sourceMappingURL=show-item.css.map */

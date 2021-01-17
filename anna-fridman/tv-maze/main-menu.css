@@ -1,0 +1,24 @@
+.main-menu {
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-menu li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-menu li a {
+  color: #fff;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.main-menu li a:hover {
+  background-color: #3f3f3f;
+}
+/*# sourceMappingURL=main-menu.css.map */

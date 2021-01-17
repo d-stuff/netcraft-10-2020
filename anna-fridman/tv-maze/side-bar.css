@@ -1,0 +1,27 @@
+.main-content aside {
+  width: 200px;
+  height: 100px;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }        
+}
+
+@media all and (max-width: 700px) {
+  .main-content aside {
+    width: 100px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .main-content aside {
+    display: none;
+  }
+}
+
+
+/*# sourceMappingURL=side-bar.css.map */

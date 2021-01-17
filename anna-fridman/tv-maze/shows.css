@@ -1,0 +1,146 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma, sans-serif;
+}
+
+header {
+  background-color: #3f3f3f;
+}
+
+header section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header section .auth-links {
+  margin-left: auto;
+}
+
+header nav {
+  background-color: #3c948b;
+}
+
+.main-menu {
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-menu li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-menu li a {
+  color: #fff;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.main-menu li a:hover {
+  background-color: #3f3f3f;
+}
+
+.main-content aside {
+  width: 200px;
+  height: 100px;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+@media all and (max-width: 700px) {
+  .main-content aside {
+    width: 100px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .main-content aside {
+    display: none;
+  }
+}
+
+.show-item {
+  width: 210px;
+  margin: 20px;
+  background-color: #3c948b;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "thumbnail thumbnail"
+ " title title "
+ " favorite ranks";
+  grid-gap: 10px;
+}
+
+.show-item h3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: title;
+  margin: 0;
+  padding: 0 0 10px 10px;
+  border-bottom: 1px solid #13ead7;
+  font-weight: normal;
+}
+
+.show-item .show-image {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: thumbnail;
+}
+
+.show-item .favorite {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: favorite;
+  text-align: center;
+}
+
+.show-item .ranks {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: ranks;
+  text-align: center;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-content main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.shows-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+/*# sourceMappingURL=shows.css.map */

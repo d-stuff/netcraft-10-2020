@@ -1,0 +1,18 @@
+
+.main-content aside {
+  width: 200px;
+  height: 100px;
+  order: 2;
+}
+
+@media all and (max-width: 700px) {
+  .main-content aside {
+	width: 100px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .main-content aside {
+	display: none;
+  }
+}

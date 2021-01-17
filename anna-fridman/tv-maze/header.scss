@@ -1,0 +1,19 @@
+
+header {
+  background-color: #3f3f3f;
+
+  section {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+	.auth-links {
+	  margin-left: auto;
+	}
+  }
+
+  nav {
+	background-color: #3c948b;
+  }
+
+}
